@@ -1,26 +1,62 @@
-h1 {
-   text-shadow: 8px 8px 5px #ffffff;
+body{
+	background:#ffffe6;
+}
+
+h1{
+	text-shadow: 8px 8px 5px #ffffff;	
+}
+
+h2{
+	text-align:center; 
+	font-size:40px;
 }
 
 
-h3, h4{
-   text-shadow: 4px 3px #ffffff;
+h3,h4{
+	text-shadow: 4px 3px #ffffff;
+
+}
+
+
+
+p{
+	text-align:justify; 
+	font-family:arial; 
+	font-size:30px;
 }
 
 
 footer b{
-	
-    style="font-family:Lucida Handwriting"
+	style="font-family:Lucida Handwriting"
 }
-
-
-div.polaroid {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  								
-}
-
 
 img:hover {
-   box-shadow: 0 5px 10px 20px rgb(247, 147, 84);		
+	box-shadow: 0 5px 10px 20px rgb(247, 147, 84);		
 }
+
+div.polaroid {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;  								
+}
+
+.cabeceroPrincipal{	
+	margin-bottom:0; 
+	background:#ccccff; 
+	border: 20px inset #b3b3ff;
+}
+
+.menuIzquierda{
+	margin-top:30px;
+}
+
+.areaDerecha{
+	margin-right:10px; 
+	background:#ccccff;
+}
+
+.imagenPortada{
+	width:400px; 
+	height:auto;
+}
+
+
