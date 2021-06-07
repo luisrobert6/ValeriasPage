@@ -1,9 +1,11 @@
 body{
-	background:#ffffe6;
+	background: #0000ff;
 }
 
 h1{
-	text-shadow: 8px 8px 5px #ffffff;	
+	font-size:80px;
+	text-shadow: 8px 8px 5px #ffffff;
+	
 }
 
 h2{
@@ -32,6 +34,16 @@ footer b{
 
 img:hover {
 	box-shadow: 0 5px 10px 20px rgb(247, 147, 84);		
+}
+
+video:hover {
+	box-shadow: 0 5px 10px 20px rgb(247, 147, 84);		
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.polaroid {
